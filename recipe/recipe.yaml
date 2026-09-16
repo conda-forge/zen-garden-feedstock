@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.0.0"
+  version: "3.0.1"
 
 package:
   name: zen-garden
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/z/zen-garden/zen_garden-${{ version }}.tar.gz
-  sha256: 780d584d63ad6ae203f470bf5f434d552fe9271f981e7af3d164443e5077b418
+  sha256: 52bcd6004c7d8369eaac4a6d121c04b6eb636caf62c0192a999189f3e2c96e0e
 
 build:
   noarch: python
